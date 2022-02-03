@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CodeAnalysis.App" Collapsed="true">
+    <Position X="27.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CodeAnalysis.AST" Collapsed="true">
+    <Position X="29.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgIABQgKAIACAACAhABAAAAAAAAIAAAASCAAAAEAAA=</HashCode>
+      <FileName>AST\AST.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CodeAnalysis.Body" Collapsed="true">
+    <Position X="12.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADAAAAAAAAAAACAEAAABAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>AST\Body.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CodeAnalysis.ArrayDecl" Collapsed="true">
+    <Position X="18" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAIAEAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AST\Declaration\ArrayDecl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CodeAnalysis.FuncDecl" Collapsed="true">
+    <Position X="12.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAEAAAAIAQAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>AST\Declaration\FuncDecl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CodeAnalysis.VarDecl" Collapsed="true">
+    <Position X="18" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAEEAAAAAIQAACgAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>AST\Declaration\VarDecl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CodeAnalysis.BinaryOp" Collapsed="true">
+    <Position X="13.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAQAAAAAAAgAAAAIAAAACAA=</HashCode>
+      <FileName>AST\Expression\BinaryOp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CodeAnalysis.Expr" Collapsed="true">
+    <Position X="14.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AST\Expression\Expr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CodeAnalysis.FunctionCall" Collapsed="true">
+    <Position X="15.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAQAAAAAAAAAAAAIAAAABAA=</HashCode>
+      <FileName>AST\Expression\FunctionCall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CodeAnalysis.IntConst" Collapsed="true">
+    <Position X="15.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAEAAAAAAQAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>AST\Expression\IntConst.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CodeAnalysis.UnaryOp" Collapsed="true">
+    <Position X="15.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAQAAAAAAAACAA=</HashCode>
+      <FileName>AST\Expression\UnaryOp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CodeAnalysis.ArrayDeref" Collapsed="true">
+    <Position X="13.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAQAAAAAAAAACAAIAAAAAAA=</HashCode>
+      <FileName>AST\LValue\ArrayDeref.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CodeAnalysis.LValue" Collapsed="true">
+    <Position X="13.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AST\LValue\LValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CodeAnalysis.Variable" Collapsed="true">
+    <Position X="13.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAQAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>AST\LValue\Variable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CodeAnalysis.Node" Collapsed="true">
+    <Position X="14.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AST\Node.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CodeAnalysis.AssignStmt" Collapsed="true">
+    <Position X="18" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAEAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>AST\Statement\AssignStmt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CodeAnalysis.IfStmt" Collapsed="true">
+    <Position X="18" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAABAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>AST\Statement\IfStmt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CodeAnalysis.Stmt" Collapsed="true">
+    <Position X="16.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>AST\Statement\Stmt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CodeAnalysis.WhileStmt" Collapsed="true">
+    <Position X="18" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAABAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>AST\Statement\WhileStmt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CodeAnalysis.ListViewObject" Collapsed="true">
+    <Position X="31.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAABCAA=</HashCode>
+      <FileName>ListViewObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CodeAnalysis.MainWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="27.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CodeAnalysis.Properties.Resources" Collapsed="true">
+    <Position X="31.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CodeAnalysis.Properties.Settings" Collapsed="true">
+    <Position X="27.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CodeAnalysis.OverflowBeast" Collapsed="true">
+    <Position X="12.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAIAQAAAAAAAAAEEAAA=</HashCode>
+      <FileName>OverflowDetection\OverflowBeast.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CodeAnalysis.Tokenizer" Collapsed="true">
+    <Position X="16.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEgAgAAABAAABAKCACIAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tokenizer\Tokenizer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CodeAnalysis.Token" Collapsed="true">
+    <Position X="14.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAQAgAAAAAAA=</HashCode>
+      <FileName>Tokenizer\Tokenizer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="CodeAnalysis.TokenType" Collapsed="true">
+    <Position X="18" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>LAIAAIQAACAEMQAgyFcgDAoAAAEJAAgSQAAAEAQAIAA=</HashCode>
+      <FileName>Tokenizer\Tokenizer.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,15 @@
+C:\Users\tugay\source\repos\CodeAnalysis\CodeAnalysis\bin\Debug\CodeAnalysis.exe.config
+C:\Users\tugay\source\repos\CodeAnalysis\CodeAnalysis\bin\Debug\CodeAnalysis.exe
+C:\Users\tugay\source\repos\CodeAnalysis\CodeAnalysis\bin\Debug\CodeAnalysis.pdb
+C:\Users\tugay\source\repos\CodeAnalysis\CodeAnalysis\obj\Debug\CodeAnalysis.csproj.AssemblyReference.cache
+C:\Users\tugay\source\repos\CodeAnalysis\CodeAnalysis\obj\Debug\MainWindow.g.cs
+C:\Users\tugay\source\repos\CodeAnalysis\CodeAnalysis\obj\Debug\App.g.cs
+C:\Users\tugay\source\repos\CodeAnalysis\CodeAnalysis\obj\Debug\CodeAnalysis_MarkupCompile.cache
+C:\Users\tugay\source\repos\CodeAnalysis\CodeAnalysis\obj\Debug\CodeAnalysis_MarkupCompile.lref
+C:\Users\tugay\source\repos\CodeAnalysis\CodeAnalysis\obj\Debug\MainWindow.baml
+C:\Users\tugay\source\repos\CodeAnalysis\CodeAnalysis\obj\Debug\CodeAnalysis.g.resources
+C:\Users\tugay\source\repos\CodeAnalysis\CodeAnalysis\obj\Debug\CodeAnalysis.Properties.Resources.resources
+C:\Users\tugay\source\repos\CodeAnalysis\CodeAnalysis\obj\Debug\CodeAnalysis.csproj.GenerateResource.cache
+C:\Users\tugay\source\repos\CodeAnalysis\CodeAnalysis\obj\Debug\CodeAnalysis.csproj.CoreCompileInputs.cache
+C:\Users\tugay\source\repos\CodeAnalysis\CodeAnalysis\obj\Debug\CodeAnalysis.exe
+C:\Users\tugay\source\repos\CodeAnalysis\CodeAnalysis\obj\Debug\CodeAnalysis.pdb
